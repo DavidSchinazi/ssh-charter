@@ -1,6 +1,6 @@
 # Metadata
 
-* Working group name: Secure Shell Maintenance Group
+* Working group name: Secure Shell Maintenance
 * Working group acronym: SSH
 * Mailing list: ssh@ietf.org
 
@@ -11,9 +11,9 @@ about acronym conflicts ]
 # Charter
 
 The main goal of the working group is to maintain the Secure Shell (SSH)
-protocol. SSH provides support for secure remote login, file transfer,
-and UNIX-domain sockets, TCP/IP and X11 forwardings. It can automatically
-encrypt, authenticate, and compress transmitted data.
+protocol. SSH provides support for secure remote login, file transfer, and
+UNIX-domain sockets, TCP/IP and X11 forwardings. It can automatically encrypt,
+authenticate, and compress transmitted data.
 
 At the time of writing this charter, it has been more than 17 years since the
 previous Secure Shell WG has been closed and its documents published. In the
@@ -35,11 +35,11 @@ working group can respond to emerging proofs, and to security issues found by
 formal verification tools. This can be done for example by defining new
 extensions to improve the security of SSH.
 
-This working group will strive for strong security, simplicitly, and ease of
+This working group will strive for strong security, simplicity, and ease of
 implementation. In particular, proposals should only be adopted if there is
 interest in real implementation and deployment. Protocol documents should not
-be submitted to the IESG for publication before they have been implemented.
-SSH requires at least two demonstrably interoperable implementations.
+be submitted to the IESG for publication before they have at least two
+demonstrably interoperable implementations.
 
 Defining new certificate types or trust mechanisms is out of scope. New
 transports for SSH are out of scope. While defining how SSH uses cryptographic
