@@ -37,9 +37,10 @@ extensions to improve the security of SSH.
 
 This working group will strive for strong security, simplicity, and ease of
 implementation. In particular, proposals should only be adopted if there is
-evidence of significant existing deplpyment or broad interest in new implementation
-and deployment. Protocol documents should not be submitted to the IESG for
-publication before they have at least two demonstrably interoperable implementations.
+evidence of significant existing deplpyment or broad interest in new
+implementation and deployment. Protocol documents should not be submitted to
+the IESG for publication before they have at least two demonstrably
+interoperable implementations.
 
 Defining new certificate types or trust mechanisms is out of scope. New
 transports for SSH are out of scope. While defining how SSH uses cryptographic
