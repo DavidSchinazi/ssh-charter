@@ -4,7 +4,9 @@
 * Working group acronym: SSH
 * Mailing list: ssh@ietf.org
 
-[ Open question: see issue #1 about acronym conflicts ]
+[ Open question: see
+[issue #1](https://github.com/DavidSchinazi/ssh-charter/issues/1)
+about acronym conflicts ]
 
 # Charter
 
