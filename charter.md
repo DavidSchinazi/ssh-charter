@@ -20,12 +20,11 @@ previous Secure Shell WG has been closed and its documents published. In the
 intervening years, current day implementations and RFCs have diverged, although
 the (now closed) curdle WG and various AD-sponsored RFCs have updated some of
 the SSH documentation, but in a somewhat sporadic manner as there was no WG
-chartered to generally maintain the SSH protocol documentation.
-The
-first goal of this new working group is to update the RFCs documenting SSH to
-reflect what is implemented and deployed in practice. In particular, the
-working group will document the OpenSSH certificate structure, the SSH agent
-protocol, and SFTP, as they are commonly implemented.
+chartered to generally maintain the SSH protocol documentation. The first goal
+of this new working group is to update the RFCs documenting SSH to reflect what
+is implemented and deployed in practice. In particular, the working group will
+document the OpenSSH certificate structure, the SSH agent protocol, and SFTP,
+as they are commonly implemented.
 
 A second goal of this working group is to update and maintain the list of
 cryptographic algorithms used by SSH. This includes documenting existing
