@@ -29,7 +29,7 @@ The initial goals of this new working group are:
   protocol, and SFTP, as they are commonly implemented.
 
 * to update and maintain the list of cryptographic algorithms used by SSH. This includes documenting
-  existing algorithms, deprecating unsafe algorithms, defining new algorithms (such as post-quantum),
+  existing algorithms, deprecating unsafe algorithms, selecting new algorithms (such as post-quantum),
   and determining the set of recommended and mandatory-to-implement algorithms. Updating IANA SSH
   registries and changing their registration policies is in scope.
   
