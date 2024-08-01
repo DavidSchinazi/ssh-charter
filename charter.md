@@ -1,7 +1,7 @@
 # Metadata
 
 * Working group name: Secure Shell Maintenance
-* Working group acronym: SSH
+* Working group acronym: SSHM
 * Mailing list: ssh@ietf.org
 
 [ Open question: see
@@ -20,20 +20,20 @@ previous Secure Shell WG has been closed and its documents published. In the
 intervening years, current day implementations and RFCs have diverged, although
 the (now closed) curdle WG and various AD-sponsored RFCs have updated some of
 the SSH documentation, but in a somewhat sporadic manner as there was no WG
-chartered to generally maintain the SSH protocol documentation. The first goal
-of this new working group is to update the RFCs documenting SSH to reflect what
-is implemented and deployed in practice. In particular, the working group will
-document the OpenSSH certificate structure, the SSH agent protocol, and SFTP,
-as they are commonly implemented.
+chartered to generally maintain the SSH protocol documentation. 
 
-A second goal of this working group is to update and maintain the list of
-cryptographic algorithms used by SSH. This includes documenting existing
-algorithms, deprecating unsafe algorithms, defining new algorithms (such as
-post-quantum), and determining the set of recommended and
-mandatory-to-implement algorithms. Updating IANA SSH registries and changing
-their registration policies is in scope.
+The initial goals of this new working group are:   
 
-While the development of formal verification proofs is out of scope, this
+* to update the RFCs documenting SSH to reflect what is implemented and deployed in practice.
+  In particular, the working group will document the OpenSSH certificate structure, the SSH agent
+  protocol, and SFTP, as they are commonly implemented.
+
+* to update and maintain the list of cryptographic algorithms used by SSH. This includes documenting
+  existing algorithms, deprecating unsafe algorithms, defining new algorithms (such as post-quantum),
+  and determining the set of recommended and mandatory-to-implement algorithms. Updating IANA SSH
+  registries and changing their registration policies is in scope.
+  
+* while the development of formal verification proofs is out of scope, this
 working group can respond to emerging proofs, and to security issues found by
 formal verification tools. This can be done for example by defining new
 extensions to improve the security of SSH.
@@ -45,6 +45,6 @@ implementation and deployment. Protocol documents should not be submitted to
 the IESG for publication before they have at least two demonstrably
 interoperable implementations.
 
-Defining new certificate types or trust mechanisms is out of scope. New
-transports for SSH are out of scope. While defining how SSH uses cryptographic
+Out of scope initially include:  defining new certificate types or trust mechanisms; new
+transports for SSH; while defining how SSH uses cryptographic
 algorithms is in scope, defining the algorithms themselves is out of scope.
