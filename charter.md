@@ -1,5 +1,6 @@
 # Metadata
 
+
 * Working group name: Secure Shell Maintenance
 * Working group acronym: SSHM
 * Mailing list: ssh@ietf.org
@@ -32,11 +33,11 @@ The initial goals of this new working group are:
   existing algorithms, deprecating unsafe algorithms, selecting new algorithms (such as post-quantum),
   and determining the set of recommended and mandatory-to-implement algorithms. Updating IANA SSH
   registries and changing their registration policies is in scope.
-  
+
 * while the development of formal verification proofs is out of scope, this
-working group can respond to emerging proofs, and to security issues found by
-formal verification tools. This can be done for example by defining new
-extensions to improve the security of SSH.
+  working group can respond to emerging proofs, and to security issues found by
+  formal verification tools. This can be done for example by defining new
+  extensions to improve the security of SSH.
 
 This working group will strive for strong security, simplicity, and ease of
 implementation. In particular, proposals should only be adopted if there is
@@ -45,6 +46,7 @@ implementation and deployment. Protocol documents should not be submitted to
 the IESG for publication before they have at least two demonstrably
 interoperable implementations.
 
-Out of scope initially include:  defining new certificate types or trust mechanisms; new
-transports for SSH; while defining how SSH uses cryptographic
-algorithms is in scope, defining the algorithms themselves is out of scope.
+Out of scope initially includes:  
+  * defining new certificate types or trust mechanisms;
+  * new transports for SSH;
+  * while defining how SSH uses cryptographicalgorithms is in scope, defining the algorithms themselves is out of scope.
