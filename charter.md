@@ -12,7 +12,7 @@ about acronym conflicts ]
 
 The main goal of the working group is to maintain the Secure Shell (SSH)
 protocol. SSH provides support for secure remote login, file transfer, and
-UNIX-domain sockets, TCP/IP and X11 forwardings. It can automatically encrypt,
+forwarding UNIX-domain sockets, TCP/IP and X11. It can automatically encrypt,
 authenticate, and compress transmitted data.
 
 At the time of writing this charter, it has been more than 17 years since the
