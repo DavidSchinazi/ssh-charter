@@ -25,13 +25,15 @@ chartered to generally maintain the SSH protocol documentation.
 
 The initial goals of this new working group are:   
 
-* to update the RFCs documenting SSH to reflect what is implemented and deployed in practice.
-  In particular, the working group will document the OpenSSH certificate structure, the SSH agent
-  protocol, and SFTP, as they are commonly implemented.
+* to update the RFCs documenting SSH to reflect what is implemented and
+  deployed in practice. In particular, the working group will document the
+  OpenSSH certificate structure, the SSH agent protocol, and SFTP, as they are
+  commonly implemented.
 
-* to update and maintain the list of cryptographic algorithms used by SSH. This includes documenting
-  existing algorithms, deprecating unsafe algorithms, selecting new algorithms (such as post-quantum),
-  and determining the set of recommended and mandatory-to-implement algorithms. Updating IANA SSH
+* to update and maintain the list of cryptographic algorithms used by SSH. This
+  includes documenting existing algorithms, deprecating unsafe algorithms,
+  selecting new algorithms (such as post-quantum), and determining the set of
+  recommended and mandatory-to-implement algorithms. Updating IANA SSH
   registries and changing their registration policies is in scope.
 
 * while the development of formal verification proofs is out of scope, this
@@ -49,4 +51,5 @@ interoperable implementations.
 Out of scope initially includes:  
   * defining new certificate types or trust mechanisms;
   * new transports for SSH;
-  * while defining how SSH uses cryptographicalgorithms is in scope, defining the algorithms themselves is out of scope.
+  * while defining how SSH uses cryptographicalgorithms is in scope, defining
+    the algorithms themselves is out of scope.
