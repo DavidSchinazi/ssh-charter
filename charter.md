@@ -5,10 +5,6 @@
 * Working group acronym: SSHM
 * Mailing list: ssh@ietf.org
 
-[ Open question: see
-[issue #1](https://github.com/DavidSchinazi/ssh-charter/issues/1)
-about acronym conflicts ]
-
 # Charter
 
 The main goal of the working group is to maintain the Secure Shell (SSH)
@@ -51,5 +47,5 @@ interoperable implementations.
 Out of scope initially includes:  
   * defining new certificate types or trust mechanisms;
   * new transports for SSH;
-  * while defining how SSH uses cryptographicalgorithms is in scope, defining
+  * while defining how SSH uses cryptographic algorithms is in scope, defining
     the algorithms themselves is out of scope.
