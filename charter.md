@@ -1,6 +1,5 @@
 # Metadata
 
-
 * Working group name: Secure Shell Maintenance
 * Working group acronym: SSHM
 * Mailing list: ssh@ietf.org
