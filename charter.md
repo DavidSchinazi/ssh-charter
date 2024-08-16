@@ -25,9 +25,9 @@ The initial goals of this new working group are:
   OpenSSH certificate structure, the SSH agent protocol, and SFTP, as they are
   commonly implemented.
 
-* to update and maintain the list of cryptographic algorithms used by SSH. This
-  includes documenting existing algorithms, deprecating unsafe algorithms,
-  selecting new algorithms (such as post-quantum), and determining the set of
+* to update and maintain the list of cryptographic algorithms used by SSH.
+  This includes documenting currently deployed algorithms, deprecating
+  unsafe algorithms, selecting new algorithms, and determining the set of
   recommended and mandatory-to-implement algorithms. Updating IANA SSH
   registries and changing their registration policies is in scope.
 
