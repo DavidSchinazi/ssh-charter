@@ -11,14 +11,11 @@ protocol. SSH provides support for secure remote login, file transfer, and
 forwarding UNIX-domain sockets, TCP/IP and X11. It can automatically encrypt,
 authenticate, and compress transmitted data.
 
-At the time of writing this charter, it has been more than 17 years since the
-previous Secure Shell WG has been closed and its documents published. In the
-intervening years, current day implementations and RFCs have diverged, although
-the (now closed) curdle WG and various AD-sponsored RFCs have updated some of
-the SSH documentation, but in a somewhat sporadic manner as there was no WG
-chartered to generally maintain the SSH protocol documentation. 
+The SSHM working group facilitates discussion of clarifications, improvements,
+and extensions to SSH protocol. The working group also serves as a focus point
+for other IETF Working Groups who use SSH in their own protocols.
 
-The initial goals of this new working group are:   
+The initial goals of this working group are:   
 
 * to update the RFCs documenting SSH to reflect what is implemented and
   deployed in practice. In particular, the working group will document the
