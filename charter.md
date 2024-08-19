@@ -46,5 +46,5 @@ interoperable implementations.
 Out of scope initially includes:  
   * defining new certificate types or trust mechanisms;
   * new transports for SSH;
-  * while defining how SSH uses cryptographic algorithms is in scope, defining
+  * while defining how SSH uses cryptographic algorithms is in scope, designing
     the algorithms themselves is out of scope.
