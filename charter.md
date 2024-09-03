@@ -12,8 +12,8 @@ forwarding UNIX-domain sockets, TCP/IP and X11. It can automatically encrypt,
 authenticate, and compress transmitted data.
 
 The SSHM working group facilitates discussion of clarifications, improvements,
-and extensions to SSH protocol. The working group also serves as a focus point
-for other IETF Working Groups who use SSH in their own protocols.
+and extensions to the SSH protocol. The working group also serves as a focus
+point for other IETF Working Groups who use SSH in their own protocols.
 
 The initial goals of this working group are:   
 
